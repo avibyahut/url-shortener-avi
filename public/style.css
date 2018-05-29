@@ -1,0 +1,14 @@
+.us{
+  font-size:20px;
+  margin-right:150px;
+  margin-left:150px;
+  border-left-color:grey;
+  border-left-style:solid;
+  padding-left:10px;
+}
+.u{
+  margin-left:150px;
+}
+span{
+    color:red;
+  }
