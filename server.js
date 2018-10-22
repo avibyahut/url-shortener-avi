@@ -41,8 +41,10 @@ var surl=req.params.surl;
       if(re.test(str)){ res.redirect(301,str);}
       else {res.redirect(301,'http://'+str);}
     }
+    else {
+    res.send('cannot find shorturl in database');
+    }
   })
-  res.send('cannot find shorturl in database');
 })
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function (request, response) {
